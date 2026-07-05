@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link 
+    rel="stylesheet" 
+    type='text/css' 
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" 
+  />        
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" 
+  />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- Single Button for both open/close -->
+  <div class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Side Navigation -->
+  <div class="side-nav" id="sideNav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#project">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="blur-overlay" id="blurOverlay"></div>
+  
+  <div class="fix">
+    <div class="logo-wrapper">
+      <a href="#home" class="letter">B</a>
+      <a href="#home" class="letter">R</a>
+      <a href="#home" class="letter">K</a>
+      <a href="#home" class="letter">T<span class="dot"></span></a>
+    </div> 
+    <a href="#home" class="top-left"></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About me</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="corner-l">
+      <div class="vertical-line"></div>
+      <div class="horizontal-line"></div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="corner-r">
+      <div class="horizontal-line"></div>
+      <div class="vertical-line"></div>
+    </div>
+  </div>
+
+  <section id="home">
+    <div class="hero">
+      <p class="name hidden">Bereket Melaku</p>
+      <p class="title hidden">Web developer</p>
+      <p class="hero-sub hidden">Building interactive experiences & performant frontends.</p>
+      
+      <a class="fancy hidden" href="#project">
+        <span class="top-key"></span>
+        <span class="text">Projects</span>
+        <span class="bottom-key-1"></span>
+        <span class="bottom-key-2"></span>
+      </a>
+    </div>
+
+    <div class="arrow-scroll">
+      <div class="arrow"></div>
+      <div class="arrow"></div>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <section id="about">
+
+    <div class="abt-con hidden">
+
+      <img src="./Photos/prj.jpg" alt="" class="profile-photo">
+
+      <div class="abt-text">
+        <div class="abt-me">
+          <h2 class="hidden">About me</h2>
+          <p class="hidden">I’m a front-end web developer focused on creating accessible, performant and delightful user experiences. I enjoy turning design systems into scalable code and exploring micro-interactions that make apps feel alive.</p>
+        </div>
+        
+        <div class="t-stack">
+          <h2>Tech stack</h2>
+          <div class="skill-icons" aria-hidden="true">
+            <i class="devicon-vscode-plain colored" title="VS Code"></i>
+            <i class="devicon-html5-plain colored" title="HTML5"></i>
+            <i class="devicon-css3-plain colored" title="CSS3"></i>
+            <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+            <i class="devicon-react-original colored" title="React"></i>
+            <i class="devicon-git-plain colored" title="Git"></i>
+            <i class="devicon-tailwindcss-original colored" title="Tailwind"></i>
+            <i class="devicon-github-original" title="GitHub"></i>
+          </div>
+        </div>
+
+        <a href="#contact">Hire me</a>
+      </div>
+
+    </div>
+
+  </section>
+    
+    
+  <div class="project-headline id="project"><h2>Projects</h2><div></div></div>
+  <section id="project">
+    <div class="container swiper">
+      <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+
+          <!-- Card 1 -->
+          <li class="card-item swiper-slide">
+            <div class="card-link">
+              <img src="./Photos/prj.jpg" alt="Project 1 Preview" class="card-image" />
+              <div class="card-body hidden">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit explicabo adipising elit Lorem ipsum dolor sit explicabo adipising elit</p>
+                <div class="icons-used">
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="card-actions">
+                  <a href="#" class="btn-outline">Visit</a>
+                  <a href="#" class="btn-ghost"><i class="devicon-github-original"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 2 -->
+          <li class="card-item swiper-slide">
+            <div class="card-link">
+              <img src="./Photos/prj.jpg" alt="Project 2 Preview" class="card-image" />
+              <div class="card-body hidden">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit explicabo adipising elit Lorem ipsum dolor sit explicabo adipising elit</p>
+                <div class="icons-used">
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="card-actions">
+                  <a href="#" class="btn-outline">Visit</a>
+                  <a href="#" class="btn-ghost"><i class="devicon-github-original"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 3 -->
+          <li class="card-item swiper-slide">
+            <div class="card-link">
+              <img src="./Photos/prj.jpg" alt="Project 3 Preview" class="card-image" />
+              <div class="card-body hidden">
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit explicabo adipising elit Lorem ipsum dolor sit explicabo adipising elit</p>
+                <div class="icons-used">
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="card-actions">
+                  <a href="#" class="btn-outline">Visit</a>
+                  <a href="#" class="btn-ghost"><i class="devicon-github-original"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Card 4 -->
+          <li class="card-item swiper-slide">
+            <div class="card-link">
+              <img src="./Photos/prj.jpg" alt="Project 3 Preview" class="card-image" />
+              <div class="card-body hidden">
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit explicabo adipising elit Lorem ipsum dolor sit explicabo adipising elit</p>
+                <div class="icons-used">
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="card-actions">
+                  <a href="#" class="btn-outline">Visit</a>
+                  <a href="#" class="btn-ghost"><i class="devicon-github-original"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <!-- Swiper Controls -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="section contact-section" role="region" aria-labelledby="contact-heading">
+    <div class="container contact-wrap">
+      <h2 id="contact-heading" class="section-title">Get in touch</h2>
+
+      <div class="social-icons1">
+        <a href="#"><i class="fab fa-twitter hidden"></i></a>
+        <a href="#"><i class="fab fa-instagram hidden"></i></a>
+        <a href="#"><i class="fab fa-github hidden"></i></a>
+        <a href="#"><i class="fab fa-linkedin hidden"></i></a>
+        <a href="#"><i class="fab fa-telegram hidden"></i></a>
+      </div>
+
+      <div class="contact-top">
+        <a href="mailto:bereket@dev.com" class="contact-item">bereket@dev.com</a>
+        <a href="tel:+251987644400" class="contact-item">+251 987 644 400</a>
+      </div>
+
+      <div class="contact-con" role="form" aria-label="Contact form">
+        <form id="contact-form" novalidate>
+          <label class="sr-only" for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Name" required aria-required="true" />
+
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Email" required aria-required="true" />
+
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Message" required aria-required="true"></textarea>
+
+          <div class="form-row">
+            <button type="submit" class="sub">Send message</button>
+            <div id="form-feedback" role="status" aria-live="polite"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <p>&copy; Bereket Melaku <span id="year"></span> | All rights reserved.</p>
+    </div>
+  </section>
+
+
+  
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
