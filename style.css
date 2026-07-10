@@ -1,10 +1,10 @@
 :root {
-  --bg: #0b0d10;            /* deep neutral black */
-  --card: #0f1216;          /* card bg */
-  --muted: #99a1b3;         /* muted text */
-  --text: #e6eef6;          /* primary text */
-  --accent: #6c5ce7;        /* modern electric lavender */
-  --accent-2: #50e3c2;      /* subtle teal for small highlights */
+  --bg: #0b0d10;
+  --card: #0f1216;
+  --muted: #99a1b3;
+  --text: #e6eef6;
+  --accent: #6c5ce7;
+  --accent-2: #50e3c2;
   --glass: rgba(255,255,255,0.03);
   --line: rgba(255,255,255,0.06);
   --radius: 12px;
@@ -1067,3 +1067,8 @@ textarea {
   pointer-events: fill;
 }
 
+/* @media (hover: hover) and (pointer: fine) {
+  buttton:hover {
+    background-color: #ff0055;
+  }
+} */
